@@ -8,7 +8,7 @@ const forecast=(latitude,longitude,callback)=>{
         }else if(body.cod===400){
         callback('unable to find forecast!!',undefined)
         }else{
-        callback(undefined,'It is '+(body.main.temp-273)+' degrees out there. There is a '+body.clouds.all+'% chance of rain.')
+        callback(undefined,body.weather[0].description+'. It is '+(body.main.temp-273).toFixed(2)+' degrees out there. There is a '+body.clouds.all+'% chance of rain.')
         }
 })
 }

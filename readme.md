@@ -45,4 +45,4 @@ login to heroku cli: heroku login
 Add your SSH keys to heroku, run command : heroku keys:add
 To create your heroku app, run command : heroku create <app_name>
 To check availiable remotes, run command : git remote
-To push code to heroku, run command : git push heroku master
+To push code to heroku, run command : git push heroku master(Before pushing code to heroku check changes to deploy file)

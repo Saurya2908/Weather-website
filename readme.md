@@ -1,18 +1,14 @@
-#npm packages used in weather-app:
+#npm packages/core modules used in weather-app:
 
 **axios**: to make http requests(earlier request module)
+**express**: to make web server and serve files to user as frontend
+**path**: to integrate static files in other directories
+**hbs**: handlebars.js express view engine for templating files
 
-
-
-
-
-
-
-
-
-
-
-
+*to run the app:*
+1. set the weather-website directory as pwd and in cmd type: npm i
+2. run the project using command : npm start (or look for the run command in package.json file inside scripts)
+3. ctrl+click on the url generated and search for your weather(or in your browser go to url localhost:3000)
 
 
 #To deploy:
